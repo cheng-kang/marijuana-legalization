@@ -1,0 +1,17 @@
+article h1,
+article h2 {
+  text-align: center;
+}
+
+article p {
+  text-align: left;
+  line-height: 1.2;
+}
+
+article .image-container {
+  text-align: center;
+}
+
+article img {
+  width: 80%;
+}

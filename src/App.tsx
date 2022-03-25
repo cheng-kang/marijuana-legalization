@@ -9,7 +9,7 @@ export default function App() {
   const [user, setUser] = React.useState<User | undefined>(undefined);
   return (
     <AuthContext.Provider value={{ user, setUser }}>
-      <div className="App">{user ? <Main /> : <SignIn />}</div>
+      <div className="App">{!user ? <Main /> : <SignIn />}</div>
     </AuthContext.Provider>
   );
 }
